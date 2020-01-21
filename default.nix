@@ -27,6 +27,8 @@ let
 
     # gcc-arm-embedded
     binutils.bintools
+  ] ++  lib.optional stdenv.isDarwin [
+    darwin.apple_sdk.frameworks.Security
   ];
 
   # embedded-tools = [

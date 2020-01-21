@@ -1,0 +1,7 @@
+[package]
+name = "github-bot"
+version = "0.0.1"
+authors = ["Yannik Sander <me@ysndr.de>"]
+edition = "2018"
+
+[dependencies]

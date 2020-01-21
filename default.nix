@@ -39,7 +39,9 @@ let
 
   shell = mkShell rec {
     name = "rust-env";
-    buildInputs = with pkgs; []
+    buildInputs = with pkgs; [
+      ngrok
+    ]
     ++ rust-pkgs;
 
     shellHook = ''

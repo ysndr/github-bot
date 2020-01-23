@@ -11,4 +11,4 @@ serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 tokio = { version = "0.2", features = ["macros"] }
 warp = "0.2"
-warp_github_webhook = { git = "https://gitlab.com/ysndr/warp_github_webhook.git", branch = "adapt-warp-0-2" }
+warp_github_webhook = "0.3"
